@@ -13,6 +13,35 @@
 
 Eloquent Repository package for Laravel created with total "repository pattern" in-mind.
 
+## Fork
+
+This is a fork of the https://github.com/orkhanahmadov/eloquent-repository with Laravel v10 and v11 support.
+
+To install add the following to your composer.json file:
+
+```
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "alexeyplodenkoxnwhy/eloquent-repository",
+                "version": "3.0.0",
+                "source": {
+                    "url": "https://github.com/alexeyplodenkoxnwhy/eloquent-repository.git",
+                    "type": "git",
+                    "reference": "3.0.0"
+                }
+            }
+        }
+    ],
+```
+...
+```
+    "require": {
+        "alexeyplodenkoxnwhy/eloquent-repository": "^3"
+    },
+```
+
 ## Requirements
 
 Version requirement and compatibility with Laravel
