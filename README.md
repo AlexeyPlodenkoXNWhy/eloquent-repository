@@ -41,6 +41,14 @@ To install add the following to your composer.json file:
         "alexeyplodenkoxnwhy/eloquent-repository": "^3"
     },
 ```
+...
+```
+    "autoload": {
+        "psr-4": {
+            "Orkhanahmadov\\EloquentRepository\\": "vendor/alexeyplodenkoxnwhy/eloquent-repository/src/"
+        }
+    },
+```
 
 ## Requirements
 
